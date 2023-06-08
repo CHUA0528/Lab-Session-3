@@ -1,0 +1,41 @@
+
+POST http://localhost:3000/Register
+Content-Type: application/json
+
+{
+  "_id": 1001,
+  "username": "CHAN",
+  "password":"1234567"
+}
+
+###
+
+GET http://localhost:3000/Login
+Content-Type: application/json
+
+{
+  "username": "CHAN",
+  "password":"1234567"
+}
+
+###
+
+PATCH http://localhost:3000/Update
+Content-type: application/json
+
+{
+  "_id": 1001,
+  "username":"CHOON0528111115678",
+  "password":"9438335chua"
+}
+
+###
+
+DELETE http://localhost:3000/Delete
+Content-type: application/json
+
+{
+  "_id": 1001
+
+}
+###
